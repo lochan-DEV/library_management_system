@@ -9,7 +9,7 @@ A command-line library management system built in Python that lets you add books
 On each run, the program first checks if a book already exists (by title); if it's new, it's added to the JSON file with a default of 20 copies. You're then asked to choose between borrowing (1) or returning (2) a book — borrowing records your name and due date and reduces available copies, while returning removes your borrower record, restores the copy count, and charges a ₹2/day penalty if the book is returned more than 15 days late.
 
 ## Features
-- Add a new book (auto-detects duplicates by title)
+- Add a new book 
 - Borrow a book with borrower name and due date
 - Return a book with automatic late-fee calculation (₹2/day after 15 days)
 - Data persists across sessions via JSON file storage (`data/library.json`)
