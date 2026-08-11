@@ -13,12 +13,12 @@ On each run, the program first checks if a book already exists (by title); if it
 
 
 **Adding & Borrowing a book:**
-![Borrow Demo](demo-borrow.png)
+![Borrow Demo](asserts/demo-borrow.png)
 
 
 
 **Returning a book:**
-![Return Demo](demo-return.png)
+![Return Demo](asserts/demo-return.png)
 
 
 
