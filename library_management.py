@@ -94,7 +94,7 @@ def return_book():
                     diff = present_obj - due_date_obj
                     days_late = diff.days
                     if days_late>15:
-                        penalty=2*days_late
+                        penalty=2*(int(days_late)-15)
                         book["borrowers_list"].remove(entry)
                         book["available_copies"]+=1
                         save_books(books)
